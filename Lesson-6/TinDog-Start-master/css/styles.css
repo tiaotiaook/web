@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-  padding:3% 15%;
+  padding:3% 15% 7%;
 }
 
 
@@ -61,17 +61,21 @@ p{
 }
 
 .title-image{
-  width:60%;
+  width:25%;
   transform: rotate(30deg);
+  position:absolute;
 }
 
 #features{
   padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
 }
 
 .feature-box{
   text-align: center;
-  padding:5%;
+  padding:4.5%;
 }
 
 
