@@ -1,7 +1,26 @@
-
-$(document).keypress(function(event){
-  $("h1").text(event.key);
+$("button").on("click",function() {
+  $("h1").slideUp().slideDown().animate({opacity:0.5});
 });
+
+
+
+// $("button").on("click",function(){
+//   $("h1").slideToggle();
+// });
+
+
+
+// $("h1").on("click",function(){
+//   $("h1").css("color","purple");
+// })
+
+
+
+
+//
+// $(document).keypress(function(event){
+//   $("h1").text(event.key);
+// });
 
 
 // $("input").keypress(function(event){
