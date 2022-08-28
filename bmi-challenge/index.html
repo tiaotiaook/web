@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Calculator</title>
+  <style>
+    body {
+      background-color: linen;
+      text-align: center;
+    }
+
+    .tu1{
+      color:blue;
+    }
+
+    .tu2{
+      color:orange;
+    }
+
+    p{
+      padding:3px;
+      margin:5px;
+    }
+
+    .tu3{
+      margin:5px;
+    } -->
+
+  <!-- </style>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+
+<body>
+  <img class="pic" src="http://depart.femh.org.tw/dietary/image/title.bmp" alt="">
+  <h1 style:color:red>BMI值计算</h1>
+  <h2>BMI值计算公式：BMI=体重（公斤）/身高²（米²）</h2>
+  <h3 class="tu1">52(公斤)/1.55²（米²）=21.6</h3>
+  <h3 class="tu2">正常范围为 BMI=18.5～24</h3>
+  <hr>
+  <p>快看看自己的BMI是否在理想范围吧！</p>
+
+  <form action="/" method="post">
+    <input type="text" name="weight" placeholder="体重（公斤）">
+    <button type="submit" name="submit">开始计算</button>
+    <br>
+    <input type="text" name="height" placeholder="身高（米）">
+    /* <button type="submit" name="submit">清除计算</button> */
+  </form>
+  <p>{% result %}</p>
+
+  <input class="tu3" name="bmiValue" type="text">
+  <table align="center"  border="3px" >
+    <tr >
+      <th> </th>
+      <th>身体质量指数(BMI)<br>(kg/m2)</th>
+      <th>腰围<br>(cm)</th>
+    </tr>
+    <tr>
+      <td>体重过轻</td>
+      <td>BMI ＜ 18.5</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>正常范围</td>
+      <td>18.5≦BMI＜24</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>异常范围</td>
+      <td>
+        过重：24≦BMI＜27
+        <br>
+        轻度肥胖：27≦BMI＜30
+        <br>
+        中度肥胖：30≦BMI＜35
+        <br>
+        重度肥胖：BMI≧35
+      </td>
+      <td>
+        男性：≧90公分
+        <br>
+        女性：≧80公分
+      </td>
+    </tr>
+
+  </table>
+
+
+</body>
+
+</html>
