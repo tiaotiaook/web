@@ -17,6 +17,7 @@ h2{
     color:#66BFBF;
     font-family:'Merriweather', sans-serif;
     font-size: 2.5rem;
+    margin-top: 60px;
 }
 
 h3{
@@ -35,10 +36,22 @@ h3{
    
 }
 
+.la{
+    margin-bottom: 80px;
+}
 
 .bottom-container{
-    
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
 }
+
+.pic{
+    margin-top: 50px;
+}
+
+
 
 
 .skill-row{
@@ -61,15 +74,6 @@ h3{
     margin-left: 30px;
 }
 
-.code-img-description{
-    clear:left;
-}
-
-
-.chilli-img-description{
-    clear:right;
-}
-
 .pro{
     text-decoration: underline;
 }
@@ -85,3 +89,41 @@ h3{
     left:300px;
     bottom: 300px;
 }
+
+hr{
+    background-color:none; 
+    
+    border-style: dotted none none none;
+    /* 上面一行换一种方式
+    border-style: none;
+    border-top-style: dotted; */
+    border-width:5px;
+    width:5%;
+    color:#EAF6F6;
+    margin-top: 50px;
+}
+
+.footer-link {
+    color:#11999E; 
+}
+
+.copyright{
+    color:#EAF6F6;
+    margin: 30px auto;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #faffff;
+    font-size: 20px;
+    background: #59b562;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc3ce9;
+    text-decoration: none;
+  }
